@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String[] nombrenotas;
+        ArrayList nombres = new ArrayList();
         File archivo = null;
         FileReader reader = null;
         BufferedReader buffer = null;
@@ -21,13 +21,21 @@ public class Main {
             buffer = new BufferedReader(reader);
 
             String linea;
-            while ((linea = buffer.readLine()) != null) {
-                System.out.println(linea);
+            while ((linea = buffer.readLine() ) != null) {
+               nombres.add(linea);
             }
 
+            System.out.println(nombres);
+
+            for (int i = 0; i < 4; i++) {
+                int index = (int)(Math.random() * nombres.size());
+                System.out.println("Random Element is :" + nombres.get(index));
+            }
+
+/*
             for(int i = 1; i<=4; i++)
                 System.out.println((float)(Math.random()*10 + 1));
-
+*/
 
 
 
