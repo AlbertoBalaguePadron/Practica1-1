@@ -3,11 +3,13 @@ import java.io.File;
 import java.io.BufferedReader;
 import java.io.Reader;
 import java.io.FileReader;
+import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
 
+        String[] nombrenotas;
         File archivo = null;
         FileReader reader = null;
         BufferedReader buffer = null;
@@ -22,6 +24,14 @@ public class Main {
             while ((linea = buffer.readLine()) != null) {
                 System.out.println(linea);
             }
+
+            for(int i = 1; i<=4; i++)
+                System.out.println((float)(Math.random()*10 + 1));
+
+
+
+
+
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
