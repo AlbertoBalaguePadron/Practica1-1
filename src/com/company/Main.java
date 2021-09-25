@@ -44,9 +44,6 @@ import java.util.Formatter;
                             nombres.add(linea);
                         }
 
-
-
-
                         String nombre_alumno = "";
                         String aArchivo = "";
                         for (int h = 0; h < 10;h++){
@@ -73,6 +70,7 @@ import java.util.Formatter;
                         }
 
                         System.out.println(aArchivo);
+                        pw.println(aArchivo);
 
                     } catch (Exception ex) {
                         ex.printStackTrace();
