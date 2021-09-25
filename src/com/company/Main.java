@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
         ArrayList nombres = new ArrayList();
+        ArrayList nombres_notas = new ArrayList();
         File archivo = null;
         FileReader reader = null;
         BufferedReader buffer = null;
@@ -25,18 +26,25 @@ public class Main {
                nombres.add(linea);
             }
 
-            System.out.println(nombres);
+
 
             for (int i = 0; i < 4; i++) {
                 int index = (int)(Math.random() * nombres.size());
-                System.out.println("Random Element is :" + nombres.get(index));
+
+                nombres_notas.add(nombres.get(index));
+                    for(int e = 1; e<=4; e++)
+                        nombres_notas.add((float)(Math.random()*10 + 1));
+
+
             }
+
+                System.out.println(nombres_notas);
 
 /*
             for(int i = 1; i<=4; i++)
                 System.out.println((float)(Math.random()*10 + 1));
-*/
 
+*/
 
 
 
