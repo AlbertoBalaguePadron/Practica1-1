@@ -52,17 +52,17 @@ public class Main {
                 double alumnoSorteado = Math.random() * (nombres.size() + 0) + 1;
                 nombre_alumno = nombres.get((int) alumnoSorteado);
 
-            double mediaFinal = 0;
+                double mediaFinal = 0;
 
-            for(int y = 1; y < 5; y++){
-                 double numRam = (Math.random() * (10 - 1 ) + 1);
-                 double redondeo = Math.round((numRam * 100.0)/100.0);
-                 nota[y] = redondeo ;
-                 mediaFinal =+ redondeo;
-            }
+                for(int y = 1; y < 5; y++){
+                     double numRam = (Math.random() * (10 - 1 ) + 1);
+                     double redondeo = Math.round((numRam * 100.0)/100.0);
+                     nota[y] = redondeo ;
+                     mediaFinal =+ redondeo;
+                }
 
-            mediaFinal = (nota[1] + nota[2] + nota[3] + nota[4])/4;
-            nota[5] = mediaFinal;
+                mediaFinal = (nota[1] + nota[2] + nota[3] + nota[4])/4;
+                nota[5] = mediaFinal;
 
 
                 String aluMedia = "El alumno " + nombre_alumno + " ha sacado las siguientes notas: Nota 1: " +
@@ -71,8 +71,8 @@ public class Main {
                 aArchivo += aluMedia;
             }
 
-             System.out.println(aArchivo);
-             pw.println(aArchivo);
+            System.out.println(aArchivo);
+            pw.println(aArchivo);
 
         } catch (Exception ex) {
             ex.printStackTrace();
@@ -97,3 +97,4 @@ public class Main {
 
     }
 }
+
