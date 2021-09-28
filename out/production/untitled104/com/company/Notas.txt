@@ -1,0 +1,11 @@
+El alumno ANABEL ha sacado las siguientes notas: Nota 1: 4.0| Nota 2: 8.0 |Nota 3: 9.0 | Nota 4: 9.0   | Nota media: 7.5
+El alumno ALICIA ha sacado las siguientes notas: Nota 1: 7.0| Nota 2: 4.0 |Nota 3: 3.0 | Nota 4: 8.0   | Nota media: 5.5
+El alumno AISHA ha sacado las siguientes notas: Nota 1: 2.0| Nota 2: 9.0 |Nota 3: 3.0 | Nota 4: 4.0   | Nota media: 4.5
+El alumno ALLEN ha sacado las siguientes notas: Nota 1: 1.0| Nota 2: 8.0 |Nota 3: 4.0 | Nota 4: 2.0   | Nota media: 3.75
+El alumno ALEJANDRA ha sacado las siguientes notas: Nota 1: 4.0| Nota 2: 4.0 |Nota 3: 5.0 | Nota 4: 6.0   | Nota media: 4.75
+El alumno ABRIL ha sacado las siguientes notas: Nota 1: 8.0| Nota 2: 6.0 |Nota 3: 1.0 | Nota 4: 6.0   | Nota media: 5.25
+El alumno BORJA ha sacado las siguientes notas: Nota 1: 5.0| Nota 2: 7.0 |Nota 3: 5.0 | Nota 4: 8.0   | Nota media: 6.25
+El alumno CHLOE ha sacado las siguientes notas: Nota 1: 3.0| Nota 2: 3.0 |Nota 3: 3.0 | Nota 4: 9.0   | Nota media: 4.5
+El alumno BORJA ha sacado las siguientes notas: Nota 1: 6.0| Nota 2: 9.0 |Nota 3: 7.0 | Nota 4: 3.0   | Nota media: 6.25
+El alumno ABRIL ha sacado las siguientes notas: Nota 1: 3.0| Nota 2: 6.0 |Nota 3: 6.0 | Nota 4: 8.0   | Nota media: 5.75
+
